@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import HistoryChart from "../components/HistoryChart";
 import CoinData from "../components/CoinData";
 import coinGecko from "../apis/coinGecko";
+import Question from "../components/Question"
 
 const CoinDetailPage = () => {
   const { id } = useParams();
@@ -63,12 +64,13 @@ const CoinDetailPage = () => {
 
   const renderData = () => {
     if (isLoading) {
-      return <div>Loading....</div>;
+      return <div>Chargement....</div>;
     }
     return (
       <div className="coinlist">
         <HistoryChart data={coinData} />
         <CoinData data={coinData.detail} />
+        <Question></Question>
       </div>
     );
   };
