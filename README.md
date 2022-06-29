@@ -17,7 +17,7 @@ Afin d'afficher le graphique avec les données fournie par l'API la librairie __
 Lorsque l'on arrive dans l'application nous avons un bouton commencer qui représente la roue avec lequel le joueur joue. Le principe du concept et de savoir si l'on peut avoir des questions avec des données réelles injecter dynamiquement. Une fois le bouton cliquer par le joueur, une question avec un contexte apparait avec comme ressources un graphique et des données pour pouvoir répondre le plus justement possible. 
 
 
-## installation du projet
+## Installation du projet
 
 Si vous voulez executer le projet cloner ce repo, faites npm install dans votre terminal pour installer toutes les dépendances.  
 Puis faites npm start. Le projet s'ouvrira tout seul dans votre navigateur par la suite.
