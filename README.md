@@ -1,6 +1,6 @@
 # PoC du Jeu Education Financière
 
-## Quel Techno ? 
+## Quelle Techno ? 
 
 La techno utilisée est javascript avec __ReactJs__. Ce choix à été fait car il sera facile d'adapter le code pour une appli mobile avec react-native.
 L'application nécéssite une grand base de données. Dans un premer temps pour enregistrer les informations des joueurs et dans un second temps pour l'ensemble des événement constituant le jeu.
